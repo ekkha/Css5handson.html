@@ -1,0 +1,305 @@
+body{
+    background-color: yellow;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    text-align: center;
+    font-size: 2em;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.parent ul li{
+    list-style: none;
+}
+
+.num{
+    padding-top: 50px;
+    
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1{
+    margin: 40px;
+    width: 100px;
+    height:100px ;
+    background-color: blue;
+    animation-name: sample;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+@keyframes sample{
+    0%{
+        transform: skew(-30deg);
+
+    }
+    100%{
+        transform: skew(30deg);
+    }
+
+    
+}
+
+
+
+.box2{
+     margin: 40px;
+    width: 100px;
+    height:100px ;
+    background-color:rgb(144, 22, 42);
+    animation-name: box2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+@keyframes box2{
+    0%{
+        transform: skewy(-30deg);
+
+    }
+    100%{
+        transform: skewy(30deg);
+    }
+
+    
+}
+
+.box3{
+     margin: 40px;
+    width: 100px;
+    height:100px ;
+    background-color:rgb(22, 144, 24);
+    animation-name: box3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+@keyframes box3{
+   
+    100%{
+        transform: rotate(360deg);
+    }
+
+    
+}
+
+.one{
+     margin: 40px;
+    width: 100px;
+    height:100px ;
+    background-color:rgb(57, 22, 144);
+    animation-name: box4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+@keyframes box4{
+   0%{
+    transform: scale(1,1);
+   }
+   100%{
+    transform: scale(1,0.5);
+   }
+   
+    
+}
+ .two{
+    margin: 20px;
+   width: 100px;
+   height:100px ;
+   background-color: aqua;
+   animation-name: two;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-direction: alternate;
+}
+@keyframes two{
+  0%{
+   transform: scale(1,1);
+  }
+  100%{
+   transform: scale(0.5,1);
+  }
+  
+   
+}
+.three{
+    margin: 20px;
+   width: 100px;
+   height:100px ;
+   background-color:red;
+   animation-name: three;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   animation-direction: alternate;
+}
+@keyframes three{
+    0%{
+       
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(20deg);
+    }
+}
+.link{
+    text-align: center;
+    padding-left: 50px;
+   
+} 
+
+
+.header{
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    
+    
+} 
+.box-one{
+
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin: 20px;
+    transition-duration:3s;
+    transition-timing-function:ease ;
+} 
+.box-one:hover{
+    width: 400px;
+}
+.box-two{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin: 20px;
+    transition-duration:3s;
+    transition-timing-function: ease;
+    
+} 
+.box-two:hover{
+    width: 400px;
+    height: 400px;
+}
+.box-three{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin: 20px;
+    transition-duration:3s;
+    transition-timing-function:linear;
+} 
+.box-three:hover{
+    width: 400px;
+}
+.box-four{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin: 20px;
+    transition-duration:3s;
+    transition-timing-function:ease;
+} 
+.box-four:hover{
+    width: 400px;
+}
+.box-five{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin: 20px;
+    transition-duration:3s;
+    transition-timing-function:ease-in;
+} 
+.box-five:hover{
+    width: 400px;
+}
+.box-six{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin: 20px;
+    transition-duration:3s;
+    transition-timing-function:ease-out;
+} 
+.box-six:hover{
+    width: 400px;
+}
+.box-seven{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin: 20px;
+    transition-duration:3s;
+    transition-timing-function:ease-in-out;
+} 
+.box-seven:hover{
+    width: 400px;
+}
+.end{
+    text-align: center;
+}
+a{
+    font-size: 2.5em;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
